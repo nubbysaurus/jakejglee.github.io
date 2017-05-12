@@ -2,26 +2,36 @@
 <!--
       Welcome to Jake's local organic site. Enjoy.
 -->
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- what's this? -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jake Lee">
     <style>
       body  {background-color:lightgrey;}
-      h1    {color:salmon;}
-      u1    {color:purple;}
+      h1    {color:black;}
+      u1    {color:black;}
     </style>
       <title>Welcome!</title>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="stylesheet" href="assets/css/main.css" />
+
+      <!-- Here be Bootstrap Bill Turneryarrr... -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <link href="css/def-style.css" rel="stylesheet">
   </head>
   <body>
     <header id="test">
       <h1 id="name">Jacob Jonathan Giefer Lee</h1>
       <nav id="nav">
         <u1>
-          <li><a href="#hi">Welcome<a></li>
+          <li><a href="#hi">Welcome</a></li>
           <li><a href="/updates/">News</a></li>
-          <li><a href="#proj">Projects<a></li>
+          <li><a href="#proj">Projects</a></li>
+		  <li><a href="#contact">Contact</a></li>
 <!--          <li></li>
           <li></li>
           <li></li>
@@ -31,13 +41,18 @@
     </header>
     <section id="hi" class="main style3 dark fullscreen">
       <header>
-        <h2>Hi.</h2>
+        <h2>Howdy, World.</h2>
       </header>
-      <p>My name is Jake Lee. I am an aspiring engineer who is studying the ways
-        of the engineer at UC Santa <br>Cruz's JaBaskin School of Engineering. On this
-        site you will find links to a bunch of cool stuff, see some cool stuff,
-        and maybe <b>even learn about some cool stuff. If you have any, please send your feedback my
-        way at <i>jgieferlee@gmail.com</i>.</p>
+      <p>Welcome to the website of Jake Lee, an undergrad electrical engineering student at UC Santa Cruz's <br> 
+	  <a href="http://iamtechknow.github.io/118website">Jack Baskin School of Engineering<\a>.
+	  This site is Jake's home page. It contains links to information and projects with which he <br>
+	  has been involved or finds interesting. The page also serves the educational purpose of teaching Jake<br>
+	  the fundamentals of web design (HTML/CSS and Javascript), so please excuse any present sloppiness or bugs<br>
+	  until he can learn more formatting gems.
+	  
+	  lease send your feedback his
+        way at <i>jgieferlee@gmail.com</i>; <br>I'll thoughtfully consider it and then
+        potentially utterly disregard it ;).</p>
     </section>
     <section id="#proj" class="main style2 dark fullscreen">
       <header>
