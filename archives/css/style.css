@@ -1,0 +1,33 @@
+/* Let's play with the realness */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+p {
+	text-align: center;
+}
+/* Give some stuff some stylishnessing... */
+.header,
+.misc,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
