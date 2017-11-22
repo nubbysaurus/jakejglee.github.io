@@ -366,20 +366,23 @@ header #fh5co-main-nav > ul li:first-child {
 .item {
   position: relative;
 }
+
+/* Changed default pop-up overlay color to orange. (; */
+
 .item .pop-up-overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(240, 56, 97, 0.8);
+  background: rgba(248, 125, 9, 0.8);
   opacity: 0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .item .pop-up-overlay.pop-up-overlay-color-2 {
-  background: rgba(248, 125, 9, 0.8) !important;
+  background:  rgba(240, 56, 97, 0.8) !important;
 }
 .item .pop-up-overlay.pop-up-overlay-color-3 {
   background: rgba(23, 231, 164, 0.8) !important;
@@ -395,6 +398,7 @@ header #fh5co-main-nav > ul li:first-child {
   right: 0;
   margin-top: -60px;
   padding: 30px;
+  overflow: hidden;
 }
 .item .pop-up-overlay .desc h3 {
   color: rgba(255, 255, 255, 0.9);
