@@ -398,7 +398,6 @@ header #fh5co-main-nav > ul li:first-child {
   right: 0;
   margin-top: -60px;
   padding: 30px;
-  overflow: hidden;
 }
 .item .pop-up-overlay .desc h3 {
   color: rgba(255, 255, 255, 0.9);
