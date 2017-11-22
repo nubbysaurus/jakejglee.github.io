@@ -365,7 +365,6 @@ header #fh5co-main-nav > ul li:first-child {
 
 .item {
   position: relative;
-  overflow: hidden;
 }
 
 /* Changed default pop-up overlay color to orange. (; */
