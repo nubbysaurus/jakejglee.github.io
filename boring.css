@@ -1,104 +1,113 @@
 /* Base attributes for nubblish formatting. */
 body, form, ul {
-  font-size: 16px;
-  background-color: #000000;
-  color: #ffffff;
-  margin: 0;
-  padding: 0;
+	font-size: 16px;
+	background-color: #000000;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
 }
 h1, h2, p {
-  margin: 21px;
+	margin: 21px;
 }
 ul, li {
-  margin: inherit;
-  padding: inherit;
-  font-size: inherit;
-  list-style-type: none;
+	margin: inherit;
+	padding: inherit;
+	font-size: inherit;
+	list-style-type: none;
 }
 ul {
-  font-size: 300%;
+	font-size: 300%;
 }
 
 /* Header stuff. */
 #header {
-  width: 100%;
-  height: auto;
-  background-position: bottom;
+	width: 100%;
+	height: auto;
+	background-position: bottom;
 }
 img.logo {
-  text-align: center;
-  width: 100%;
-  max-height: 30%;
+	text-align: center;
+	width: 100%;
+	max-height: 30%;
 }
 .navbar {
-  text-align: right;
-  max-width: 100%;
-  margin: 0 180px;
-  padding: 0;
+	text-align: right;
+	max-width: 100%;
+	margin: 0 180px;
+	padding: 0;
 }
 .navbar > li {
-  display: inline-block;
-  margin: 0 25px;
-  /* IE7 hack to mimic inline-block on block elements */
-  *display: inline;
-  *zoom: 1;
+	display: inline-block;
+	margin: 0 25px;
+	/* IE7 hack to mimic inline-block on block elements */
+	*display: inline;
+	*zoom: 1;
 }
 
 /* Layout-level stuff. */
 .l-block {
-  display: block;
-  background-color: inherit;
-  margin: 42px;
-  padding: 0;
+	display: block;
+	background-color: inherit;
+	margin: 42px;
+	padding: 0;
 }
 
 .l-grey_block {
-  display: block;
-  background-color: #57595d;
-  margin: 42px;
-  padding: 0;
+	display: block;
+	background-color: #57595d;
+	margin: 42px;
+	padding: 0;
 }
 
 .l-blog {
-  max-width: 100%;
-  padding: 21px 42px;
-  background-color: inherit;
-  list-style-type: none;
+	max-width: 100%;
+	padding: 21px 42px;
+	background-color: inherit;
+	list-style-type: none;
 }
 .l-blog > li {
-  vertical-align: left;
-  border-left: 6px solid #f05e23;
-  border-bottom: 3px dotted #2b2d2f;
-  margin: 6px 42px;
-  padding: 9px 42px 9px;
-  *zoom: 1;
+	vertical-align: left;
+	border-left: 6px solid #f05e23;
+	border-bottom: 3px dotted #2b2d2f;
+	margin: 6px 42px;
+	padding: 9px 42px 9px;
+	*zoom: 1;
 }
 
 .l-grid {
-  max-width: 100%;
-  margin: 21px 90px;
-  padding: 10px 50px;
-  list-style-type: none;
+	max-width: 100%;
+	margin: 21px 90px;
+	padding: 10px 50px;
+	list-style-type: none;
 }
 .l-grid > li {
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 12%;
-  margin: 42px 64px;
-  /* IE7 hack to mimic inline-block on block elements */
-  *display: inline;
-  *zoom: 1;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 12%;
+	margin: 42px 64px;
+	text-align: center;
+	color: 0x000000;
+	/* IE7 hack to mimic inline-block on block elements */
+	*display: inline;
+	*zoom: 1;
 }
 
 /* Module-level stuff. */
 .m-title {
-  font-size: 420%;
-  color: #f05e23;
+	font-size: 420%;
+	color: #f05e23;
+}
+
+.m-grid_entry_label {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
 }
 
 img.m-list_item {
-  max-width: 100%;
-  max-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 
