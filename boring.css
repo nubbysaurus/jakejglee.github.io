@@ -87,7 +87,7 @@ img.logo {
 	max-width: 12%;
 	margin: 42px 64px;
 	text-align: center;
-	color: 0x000000;
+	color: #000000;
 	/* IE7 hack to mimic inline-block on block elements */
 	*display: inline;
 	*zoom: 1;
