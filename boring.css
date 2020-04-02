@@ -18,6 +18,9 @@ ul, li {
 ul {
 	font-size: 300%;
 }
+a {
+	width: inherit;
+	height: inherit;
 
 /* Header stuff. */
 #header {
