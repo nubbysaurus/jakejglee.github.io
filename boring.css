@@ -101,13 +101,13 @@ img.logo {
 	color: #f05e23;
 }
 
-.m-grid_entry_label {
+.m-grid_item_label {
 	bottom: 0px;
 	color: #ffffff;
 	position: absolute;
 }
 
-img.m-grid_entry {
+img.m-grid_item {
 	max-width: inherit;
 	max-height: inherit;
 }
