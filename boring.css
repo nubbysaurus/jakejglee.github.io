@@ -102,9 +102,9 @@ img.logo {
 }
 
 .m-grid_entry_label {
-	position: absolute;
-	color: inherit;
 	bottom: 0px;
+	color: #ffffff;
+	position: absolute;
 }
 
 img.m-grid_entry {
