@@ -87,7 +87,6 @@ img.logo {
 	max-width: 12%;
 	margin: 42px 64px;
 	text-align: center;
-	color: #000000;
 	/* IE7 hack to mimic inline-block on block elements */
 	*display: inline;
 	*zoom: 1;
@@ -101,10 +100,15 @@ img.logo {
 
 .m-grid_entry_label {
 	position: absolute;
+	color: inherit;
 	bottom: 8px;
 	left: 16px;
 }
 
+img.m-grid_entry {
+	max-width: inherit;
+	max-height: inherit;
+}
 img.m-list_item {
 	max-width: 100%;
 	max-height: 100%;
