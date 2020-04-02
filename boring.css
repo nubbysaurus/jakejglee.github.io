@@ -19,8 +19,11 @@ ul {
 	font-size: 300%;
 }
 a {
+	position: relative;
+	text-align: center;
 	width: inherit;
 	height: inherit;
+	color: inherit;
 
 /* Header stuff. */
 #header {
@@ -104,8 +107,7 @@ img.logo {
 .m-grid_entry_label {
 	position: absolute;
 	color: inherit;
-	bottom: 8px;
-	left: 16px;
+	bottom: 0px;
 }
 
 img.m-grid_entry {
