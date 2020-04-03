@@ -7,6 +7,7 @@ body, form, ul {
 	padding: 0;
 }
 h1, h2, p {
+	color: inherit;
 	margin: 21px;
 }
 ul {
@@ -45,7 +46,7 @@ img.logo {
 .navbar > li {
 	display: inline-block;
 	color: inherit;
-	max-width: 12%;
+	min-width: 12%;
 	margin: 0 25px;
 	/* IE7 hack to mimic inline-block on block elements */
 	*display: inline;
@@ -56,13 +57,19 @@ img.logo {
 	width: 100%;
 	height: auto;
 	background-position: bottom;
+	color: #d8bfd8;
+}
+.m-footer_title {
+	font-size: 240%;
 	color: #57595d;
 }
+
 
 /* Layout-level stuff. */
 .l-block {
 	display: block;
 	background-color: inherit;
+	color: inherit;
 	margin: 42px;
 	padding: 0;
 }
@@ -70,6 +77,7 @@ img.logo {
 .l-grey_block {
 	display: block;
 	background-color: #57595d;
+	color: inherit;
 	margin: 42px;
 	padding: 0;
 }
@@ -112,7 +120,6 @@ img.logo {
 	font-size: 420%;
 	color: #f05e23;
 }
-
 .m-grid_item_label {
 	bottom: 0px;
 	color: #ffffff;
