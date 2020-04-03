@@ -126,6 +126,9 @@ img.logo {
 	position: absolute;
 }
 
+a.m-project_link {
+	text-decoration: bold, italic;
+}
 img.m-grid_item {
 	max-width: inherit;
 	max-height: inherit;
