@@ -126,7 +126,7 @@ img.logo {
 	position: absolute;
 }
 
-a.m-project_link {
+a.m-project_link:link {
 	text-decoration: bold, italic;
 }
 img.m-grid_item {
