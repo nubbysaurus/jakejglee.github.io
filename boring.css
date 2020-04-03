@@ -36,6 +36,7 @@ img.logo {
 	max-height: 30%;
 }
 .navbar {
+	color: #d8bfd8;
 	text-align: right;
 	max-width: 100%;
 	margin: 0 180px;
@@ -43,11 +44,19 @@ img.logo {
 }
 .navbar > li {
 	display: inline-block;
+	color: inherit;
 	max-width: 12%;
 	margin: 0 25px;
 	/* IE7 hack to mimic inline-block on block elements */
 	*display: inline;
 	*zoom: 1;
+}
+/* Footer stuff. */
+#footer {
+	width: 100%;
+	height: auto;
+	background-position: bottom;
+	color: #57595d;
 }
 
 /* Layout-level stuff. */
