@@ -48,6 +48,7 @@ img.logo {
 	display: inline-block;
 	color: inherit;
 	min-width: 12%;
+	text-width: 300%;
 	margin: 0 25px;
 	/* IE7 hack to mimic inline-block on block elements */
 	*display: inline;
