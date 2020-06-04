@@ -69,21 +69,23 @@ img.logo {
 
 
 /* Layout-level stuff. */
+/* portrait */
 .l-portrait {
-	h1 {
-		display: block;
-	}
-	img {
-		display: inline;
-		max-width: 40%;
-	}
-	p {
-		display: inline;
-		max-width: 40%
-	}
 	vertical-align: center;
 	display: inline;
 }
+.l-portrait > h1 {
+	display: block;
+}
+.l-portrait > img {
+	display: inline;
+	max-width: 40%;
+}
+.l-portrait > p {
+	display: inline;
+	max-width: 40%
+}
+
 .l-block {
 	display: block;
 	background-color: inherit;
