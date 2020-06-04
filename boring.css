@@ -1,6 +1,7 @@
 /* Base attributes for nubblish formatting. */
 body, form, ul {
 	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
 	background-color: #000000;
 	color: #ffffff;
 	margin: 0;
@@ -68,6 +69,17 @@ img.logo {
 
 
 /* Layout-level stuff. */
+.l-portrait {
+	h1 {
+		display: block;
+	}
+	p {
+		display: inline;
+	}
+	img {
+		display: inline;
+	}
+}
 .l-block {
 	display: block;
 	background-color: inherit;
