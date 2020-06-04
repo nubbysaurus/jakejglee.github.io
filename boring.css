@@ -78,6 +78,7 @@ img.logo {
 	}
 	img {
 		display: inline;
+		max-width: 40%;
 	}
 }
 .l-block {
