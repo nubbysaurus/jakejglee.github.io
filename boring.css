@@ -76,15 +76,19 @@ img.logo {
 }
 .l-portrait > h1 {
 	display: block;
+	text-width: inherit;
+
 }
 .l-portrait > img {
-	display: inline;
+	display: inherit;
 	max-width: 40%;
 }
+/*
 .l-portrait > p {
-	display: inline;
+	display: inherit;
 	max-width: 40%
 }
+*/
 
 .l-block {
 	display: block;
