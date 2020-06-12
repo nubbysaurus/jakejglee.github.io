@@ -74,14 +74,14 @@ img.logo {
 	vertical-align: center;
 	display: inline;
 }
-.l-portrait > h1 {
+h1.l-portrait {
 	display: block;
 }
-.l-portrait > img {
+img.l-portrait {
 	display: inline;
 	max-width: 40%;
 }
-.l-portrait > p {
+p.l-portrait {
 	display: inline;
 	max-width: 40%
 }
