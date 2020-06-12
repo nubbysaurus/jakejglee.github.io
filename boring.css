@@ -78,6 +78,7 @@ img.logo {
 .l-portrait img {
 	margin-right: 15px;
 	max-width: 40%;
+	float: right;
 }
 .l-portrait p,
 .l-portrait h1 {
