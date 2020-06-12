@@ -71,16 +71,19 @@ img.logo {
 /* Layout-level stuff. */
 /* portrait */
 .l-portrait {
+	width: 90%;
+	padding: 10px;
 	vertical-align: center;
-	display: inline;
 }
 .l-portrait > img {
-	display: inline;
+	margin-right: 15px;
 	max-width: 40%;
 }
-.l-portrait > p {
-	display: inline;
-	max-width: 40%;
+.l-portrait > p,
+.l-portrait > h1 {
+	margin-left: 15px;
+	display: block;
+	margin: 2px 0 0 0;
 }
 
 .l-block {
