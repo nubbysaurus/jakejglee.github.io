@@ -74,29 +74,13 @@ img.logo {
 	vertical-align: center;
 	display: inline;
 }
-h1.l-portrait {
-	display: block;
-	text-width: inherit;
-
-}
-/*
 .l-portrait > img {
-	display: inherit;
+	display: inline;
 	max-width: 40%;
 }
-*/
-/*
 .l-portrait > p {
-	display: inherit;
-=======
-*/
-img.l-portrait {
 	display: inline;
 	max-width: 40%;
-}
-p.l-portrait {
-	display: inline;
-	max-width: 40%
 }
 
 .l-block {
