@@ -78,10 +78,10 @@ img.logo {
 .l-portrait img {
 	margin-right: 15px;
 	max-width: 40%;
-	float: right;
 }
 .l-portrait p,
 .l-portrait h1 {
+	float: left;
 	margin-left: 15px;
 	display: block;
 	margin: 2px 0 0 0;
