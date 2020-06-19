@@ -1,75 +1,101 @@
 <!DOCTYPE html>
-<!--
-      Welcome to Jake's localorganic site. Enjoy.
--->
-
-<html lang="en-US">
-	<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-	<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-	<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-	<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en-US" class="h-100">
 	<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="jacobjo">
-    <meta name="keywords" content="jacobjo, ninelives">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="description" content="Home base for Jake Lee." />
-    <title>check it out!</title>
-    <link rel="stylesheet"
-          type="text/css"
-          href="boring.css" />
-	  <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content=""/>
-    <meta property="og:image" content=""/>
-    <meta property="og:url" content=""/>
-    <meta property="og:site_name" content=""/>
-    <meta property="og:description" content=""/>
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:image" content="" />
-    <meta name="twitter:url" content="" />
-    <meta name="twitter:card" content="" />
-  </head>
-  <body>
-	<header>
-    <div id="header">
-      <a href="https://jakejglee.github.io/" rel="home" target=_parent>
-        <img class="logo" src="./imgs/logo.jpg" title="Hiya." alt="  ) 0 o .">
-      </a>
-      <ul class="navbar">
-        <li><a href="https://jakejglee.github.io/" rel="home" title="news">
-            home 
-          </a></li>
-        <li><a href="jake.html" title="?">
-            info
-          </a></li>
-        <li><a href="portfolio.html" title="portfolio">
-            projects
-          </a></li>
-        <li><a href="contact.html" title="reach out">
-            contact
-          </a></li>
-    </div>
-  </header>
-    <div class='l-portrait'>
-      <h1>Jake "nubby" Lee</h1>
-      <p>Jake Lee is an engineer and robotics hobbiest living in San Jose, CA. Graduating in 2018 from the Jack Baskin School of Engineering at UC Santa Cruz with a B.S. Electrical Engineering, minor Computer Engineering, Jake went on to work at Google on a contract for two years as a Data Collection Engineer. After his contract ended, Jake took time to work on some personal projects.</p>
-      <img src="./imgs/jake.jpg" title="Jake">
-    </span>
-    <span class="l-block">
-      <ul class="l-blog">
-	      <li>Mar 31, 2020 | [Adding projects] Added information about projects bellsprout, vileplume, and sableye [see <a href="./portfolio">portfolio</a>].</li>
-        <li>Feb 22nd, 2020 | [Rebuilt website; updated] Welcome home! Check out the 'projects' section for more info!</li>
-      </ul>
-    </span>
-    <div id="footer">
-      <span class="l-block">
-        <h1 class="m-footer_title">affiliates</h1>
-          <ul class="l-grid">
-            <li><a href="https://ninelivesproduction.com/">
-                <img class="m-list_item" title=" 9 " src="./imgs/9livesprod-scythelogo.png" alt=" 9 ">
-              </a></li>
-    </div>
-  </body>
-</html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>nubby's Portfolio - Jake's Portfolio</title>
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
 
+	<body class="d-flex flex-column h-100">
+	<main class="flex-shrink-0 container mt-5">
+		<nav class="navbar-boring">
+	<ul>
+		<li><a href="index">Portfolio</a></li>
+		<li><a href="profile">About</a></li>
+	</ul>
+</nav>
+<!--
+<nav class="navbar navbar-expand-lg navbar-light">
+
+  <a class="navbar-brand" href="/"><h5><b>Jake's Portfolio</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/">nubby's Portfolio</a>
+
+      <a class="nav-item nav-link " href="/korok.html">korok</a>
+
+      <a class="nav-item nav-link " href="/mawile.html">mawile</a>
+
+      <a class="nav-item nav-link " href="/profile.html">about</a>
+
+      <a class="nav-item nav-link " href="/sableye.html">sableye</a>
+
+      
+
+    </div>
+  </div>
+
+
+</nav>
+--!>
+
+		<section id="projects">
+	<div class="user-details">
+		<h1>Jake's Projects</h1>
+	</div>
+	<div class="user-project">
+		<div class="image-right">
+			<img alt="sableye" src="/assets/img/sableye.png" />
+		</div>
+		<div class="contents">
+			<h3>sableye</h3>
+			<p>
+			There is no such thing as a universal device interface, but we can try!
+			Developed for Linux systems in Python, this module aims to make it easier   
+			and more efficient to interface with any connected device. Made with 
+			algorithm development and control systems in mind.
+			</p>
+			<a class="project-link" href="sableye">learn more</a>
+		</div>
+	</div>
+	<div class="user-project">
+		<div class="image-left">
+			<img alt="mawile" src="/assets/img/mawile.png" />
+		</div>
+		<div class="contents-right">
+			<h3>mawile</h3>
+			<p>
+			A sensor interface PCB with four onboard ADCs and I2C and SPI 
+			expansion ports. Made for use with RaspberryPis, but generally 
+			applicable.
+			</p>
+			<a class="project-link" href="mawile">learn more</a>
+		</div>
+	</div>
+	<div class="user-project">
+		<div class="image-right">
+			<img alt="korok" src="/assets/img/korok-hollo.png" />
+		</div>
+		<div class="contents">
+			<h3>korok [UNDER DEVELOPMENT]</h3>
+			<p>
+			This friendly 'bot helps gardeners by monitoring growing conditions 
+			with an array of affordable sensors. The data is collected by a drone,
+			processed in the Cloud, and returned to users in a mobile app.
+			</p>
+			<a class="project-link" href="korok">learn more</a>
+		</div>
+	</div>
+</section>
+
+
+	</main>
+
+	
+	</body>
+</html>
