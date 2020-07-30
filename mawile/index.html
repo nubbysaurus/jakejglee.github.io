@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head><meta charset="utf-8">
+<meta name="keywords" content="electronics, computers, engineering, portfolio">
+<meta name="description" content="Jake Lee's portfolio.">
+<meta name="author" content="nubby">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href="https://jakejglee.github.io">
+<title>mawile</title>
+
+    
+    <link rel="stylesheet" href="https://jakejglee.github.io/sass/main.min.d7df11e49b00d2f177d6bded2d83e7bdb53c608577a48755dc2724f506bb3cc3.css">
+  </head>
+  <body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="classicnav" id="nubbysNav">
+  <a href="https://jakejglee.github.io">Portfolio</a>
+  <a href="https://jakejglee.github.ioetc/about/">About</a>
+  <a href="https://jakejglee.github.ioetc/affiliated/">Affiliated</a>
+  <a href="https://jakejglee.github.ioetc/contact/">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="expandClassy()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div id="content">
+        
+  <h2>mawile</h2>
+  <a>modified : 2020-07-29 16:26:37 -0700 PDT</a>
+  <h5>GitHub: <a href="https://github.com/nubbysaurus/mawile">link</a></h5>
+<div class="project">
+  <img src="/imgs/mawile.png">
+  <h2>background</h2>
+  <p>
+  I<sup>2</sup>C is a lovely hardware interface that allows multiple 
+  devices to communicate over the same data bus. By taking appropriate 
+  <a href="https://www.nxp.com/docs/en/user-guide/UM10204.pdf">electrical design considerations</a>, 
+  one can reach several devices. However, the Raspberry Pi 3 only 
+  provides two separate potential I<sup>2</sup>C connectors. This will 
+  not do. We must make more ports.
+  </p>
+  <p>
+  From <a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/gpio/README.md">specs</a> 
+  on Pis, GPIO pins typically have ~5pF of input capacitance and are 
+  connected to internal ~65k&#x2126; (worst-case) pull-up resistors.
+  By limiting additional bus capacitances and operating in 
+  Standard-mode, rearranging Equation 1 (Section 7.1 of 
+  <a href="https://www.nxp.com/docs/en/user-guide/UM10204.pdf">this</a>) 
+  gives us C<sub>b_max</sub> of ~18pF. By using low-capacitance 
+  connectors between the Pi, the companion board, and the slave devices,
+  I predict that we will be able to communicate without errors with 
+  three more devices (~5pF each, parallel). The mawile project aims 
+  to find out.
+  </p>
+  <h2>break it down</h2>
+  <p>
+  On a Pi 3, pins 1-6 designate every connection (and more) needed to 
+  communicate over I<sup>2</sup>C. The mawile board extends SCL, SDA, 
+  V<sub>DD</sub> (+3.3V), and GND (0V) to four additional I<sup>2</sup>C 
+  ports.
+  </p>
+  <p>
+  Figure 1 shows mawile's schematic adjacent to its layout. Care is 
+  taken to minimize I<sup>2</sup>C bus capacitance.
+  </p>
+  <div class="figure">
+    <img src="imgs/mawile_sch.png"><img src="imgs/mawile_pcb.png">
+    <a>Figure 1: mawile schematic (left) and layout outline (right).</a>
+  </div>
+  <h2>to-do</h2>
+  <ul>
+    <li>expand with bus muxing.</li>
+    <li>send to boardhouse.</li>
+    <li>test!</li>
+  </ul>
+</div>
+
+
+
+        </div></body>
+</html>

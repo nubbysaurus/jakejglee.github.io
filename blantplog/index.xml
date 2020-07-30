@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blantplogs on portfolio | Jake Lee</title>
+    <link>https://jakejglee.github.io/blantplog/</link>
+    <description>Recent content in Blantplogs on portfolio | Jake Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jul 2020 23:07:16 -0700</lastBuildDate>
+    
+	<atom:link href="https://jakejglee.github.io/blantplog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>https://jakejglee.github.io/blantplog/test/</link>
+      <pubDate>Mon, 27 Jul 2020 23:07:16 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/blantplog/test/</guid>
+      <description>Milkwando. </description>
+    </item>
+    
+    <item>
+      <title>Blant Plog : 1_20200727</title>
+      <link>https://jakejglee.github.io/blantplog/1_20200727/</link>
+      <pubDate>Mon, 27 Jul 2020 17:53:58 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/blantplog/1_20200727/</guid>
+      <description>FOOD is GOOD. I love to eat things! Burgers, milkshakes, burritos, sushi, curry, potatoes, and that&amp;rsquo;s before noon. My friends and family wouldn&amp;rsquo;t tell me that I was a tubby 13 year-old directly, but I felt pretty thiccq. Alas! I was not alone. Between 2000 and 2018, 11.9% more of the entire American population became obese, while 4.5% more of it became severely obese. As long as the stuff gets onto our plates, why worry about the journey?</description>
+    </item>
+    
+  </channel>
+</rss>

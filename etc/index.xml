@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Etcs on portfolio | Jake Lee</title>
+    <link>https://jakejglee.github.io/etc/</link>
+    <description>Recent content in Etcs on portfolio | Jake Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jul 2020 16:46:02 -0700</lastBuildDate>
+    
+	<atom:link href="https://jakejglee.github.io/etc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>https://jakejglee.github.io/etc/contact/</link>
+      <pubDate>Tue, 28 Jul 2020 16:46:02 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/etc/contact/</guid>
+      <description> For questions or more information, please contact me and I will get back to you as soon as possible. ) 0 o . email: jacobjonathangieferlee@gmail.com </description>
+    </item>
+    
+    <item>
+      <title>About Jake</title>
+      <link>https://jakejglee.github.io/etc/about/</link>
+      <pubDate>Tue, 28 Jul 2020 16:43:23 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/etc/about/</guid>
+      <description>Jake Lee [he/him] wants to protect the redwood forests. He is an engineer, maker, artist, and aspiring farmer. Knowledge is powerful, but so is convenience. He is frustrated by the current agricultural system in America (and globally). Equal access to education for all people is important to him. Jake hopes to some day combine all of his frustrations with his interest in robotics to build tools that can simultaneously help small farmers and provide engineering education to rural communities.</description>
+    </item>
+    
+    <item>
+      <title>Affiliated</title>
+      <link>https://jakejglee.github.io/etc/affiliated/</link>
+      <pubDate>Tue, 28 Jul 2020 14:28:44 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/etc/affiliated/</guid>
+      <description> nubby Spade and Plow Nine Lives Productions  </description>
+    </item>
+    
+  </channel>
+</rss>

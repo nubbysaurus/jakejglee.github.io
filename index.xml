@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jake&#39;s portfolio on portfolio | Jake Lee</title>
+    <link>https://jakejglee.github.io/</link>
+    <description>Recent content in jake&#39;s portfolio on portfolio | Jake Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jul 2020 13:19:14 -0700</lastBuildDate>
+    
+	<atom:link href="https://jakejglee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>radish-pi</title>
+      <link>https://jakejglee.github.io/radish-pi/</link>
+      <pubDate>Thu, 30 Jul 2020 01:53:55 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/radish-pi/</guid>
+      <description>GitHub: link background  After Harry Jackson, Lon Blauvelt, and I graduated from college in 2017, we decided to spend our last summer in Santa Cruz building something cool. None of us liked spending money on fresh beets, so we wondered: how hard would it be to grow some superior beets? Everyone knows that the freshest beets are dirt-free, so we started researching hydroponic methods and when we learned how efficient aeroponics systems could be, we saw into the future of beets.</description>
+    </item>
+    
+    <item>
+      <title>mawile</title>
+      <link>https://jakejglee.github.io/mawile/</link>
+      <pubDate>Wed, 29 Jul 2020 16:26:37 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/mawile/</guid>
+      <description>GitHub: link background  I2C is a lovely hardware interface that allows multiple devices to communicate over the same data bus. By taking appropriate electrical design considerations, one can reach several devices. However, the Raspberry Pi 3 only provides two separate potential I2C connectors. This will not do. We must make more ports.  From specs on Pis, GPIO pins typically have ~5pF of input capacitance and are connected to internal ~65k&amp;#x2126; (worst-case) pull-up resistors.</description>
+    </item>
+    
+    <item>
+      <title>sableye</title>
+      <link>https://jakejglee.github.io/sableye/</link>
+      <pubDate>Wed, 29 Jul 2020 16:26:31 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/sableye/</guid>
+      <description>GitHub: link background  Building a &#34;universal&#34; device interface is impractical, but it would make collecting data from devices a lot easier. Programs like LabView are pretty good at providing a nice user interface for setting up communications, but even that is limited (not to mention it is so expensive!).  Project sableye came about after I left my last job and started playing with sensors at home. Pretty quickly, it got frustrating hard-coding every sensor communication protocol on my Raspberry Pi, and metadata generated for data collection sessions was either outdated or irrelevant.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://jakejglee.github.io/etc/contact/</link>
+      <pubDate>Tue, 28 Jul 2020 16:46:02 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/etc/contact/</guid>
+      <description> For questions or more information, please contact me and I will get back to you as soon as possible. ) 0 o . email: jacobjonathangieferlee@gmail.com </description>
+    </item>
+    
+    <item>
+      <title>About Jake</title>
+      <link>https://jakejglee.github.io/etc/about/</link>
+      <pubDate>Tue, 28 Jul 2020 16:43:23 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/etc/about/</guid>
+      <description>Jake Lee [he/him] wants to protect the redwood forests. He is an engineer, maker, artist, and aspiring farmer. Knowledge is powerful, but so is convenience. He is frustrated by the current agricultural system in America (and globally). Equal access to education for all people is important to him. Jake hopes to some day combine all of his frustrations with his interest in robotics to build tools that can simultaneously help small farmers and provide engineering education to rural communities.</description>
+    </item>
+    
+    <item>
+      <title>Affiliated</title>
+      <link>https://jakejglee.github.io/etc/affiliated/</link>
+      <pubDate>Tue, 28 Jul 2020 14:28:44 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/etc/affiliated/</guid>
+      <description> nubby Spade and Plow Nine Lives Productions  </description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://jakejglee.github.io/blantplog/test/</link>
+      <pubDate>Mon, 27 Jul 2020 23:07:16 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/blantplog/test/</guid>
+      <description>Milkwando. </description>
+    </item>
+    
+    <item>
+      <title>Blant Plog : 1_20200727</title>
+      <link>https://jakejglee.github.io/blantplog/1_20200727/</link>
+      <pubDate>Mon, 27 Jul 2020 17:53:58 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/blantplog/1_20200727/</guid>
+      <description>FOOD is GOOD. I love to eat things! Burgers, milkshakes, burritos, sushi, curry, potatoes, and that&amp;rsquo;s before noon. My friends and family wouldn&amp;rsquo;t tell me that I was a tubby 13 year-old directly, but I felt pretty thiccq. Alas! I was not alone. Between 2000 and 2018, 11.9% more of the entire American population became obese, while 4.5% more of it became severely obese. As long as the stuff gets onto our plates, why worry about the journey?</description>
+    </item>
+    
+  </channel>
+</rss>
