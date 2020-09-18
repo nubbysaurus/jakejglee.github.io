@@ -12,12 +12,30 @@
     
     
     <item>
-      <title>radish-pi</title>
+      <title>hoppip (formerly radish-pi)</title>
+      <link>https://jakejglee.github.io/hoppip/</link>
+      <pubDate>Thu, 30 Jul 2020 01:53:55 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/hoppip/</guid>
+      <description>GitHub: link background  After Harry Jackson, Lon Blauvelt, and I graduated from college in 2017, we decided to spend our last summer in Santa Cruz building something cool. We all liked radishes, so we started reading about growing them using hydroponics. We glimpsed the future of radishes after we learned about the benefits of aeroponics. In this future, we witnessed pH sensors and control frameworks that could automatically tweak nutrient content of mist; optimization, efficiency, and, best of all, lots of HUGE radishes.</description>
+    </item>
+    
+    <item>
+      <title>hoppip (formerly radish-pi)</title>
       <link>https://jakejglee.github.io/radish-pi/</link>
       <pubDate>Thu, 30 Jul 2020 01:53:55 -0700</pubDate>
       
       <guid>https://jakejglee.github.io/radish-pi/</guid>
-      <description>GitHub: link background  After Harry Jackson, Lon Blauvelt, and I graduated from college in 2017, we decided to spend our last summer in Santa Cruz building something cool. None of us liked spending money on fresh beets, so we wondered: how hard would it be to grow some superior beets? Everyone knows that the freshest beets are dirt-free, so we started researching hydroponic methods and when we learned how efficient aeroponics systems could be, we saw into the future of beets.</description>
+      <description>GitHub: link background  After Harry Jackson, Lon Blauvelt, and I graduated from college in 2017, we decided to spend our last summer in Santa Cruz building something cool. We all liked radishes, so we started reading about growing them using hydroponics. We glimpsed the future of radishes after we learned about the benefits of aeroponics. In this future, we witnessed pH sensors and control frameworks that could automatically tweak nutrient content of mist; optimization, efficiency, and, best of all, lots of HUGE radishes.</description>
+    </item>
+    
+    <item>
+      <title>machop</title>
+      <link>https://jakejglee.github.io/machop/</link>
+      <pubDate>Wed, 29 Jul 2020 16:26:37 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/machop/</guid>
+      <description>background  It is hard to make anything without access to a nice workspace. As my housemate and I reclaimed our cluttered garage for the valuable space, we disassembled large wooden structures that left us with a ton of scrap wood. For a month in the middle of summer, we kept it outside uncovered. San Jose had been so dry, there was no way that wood would warp...we thought. Then came the rain.</description>
     </item>
     
     <item>
@@ -53,7 +71,7 @@
       <pubDate>Tue, 28 Jul 2020 16:43:23 -0700</pubDate>
       
       <guid>https://jakejglee.github.io/etc/about/</guid>
-      <description>Jake Lee [he/him] wants to protect the redwood forests. He is an engineer, maker, artist, and aspiring farmer. Knowledge is powerful, but so is convenience. He is frustrated by the current agricultural system in America (and globally). Equal access to education for all people is important to him. Jake hopes to some day combine all of his frustrations with his interest in robotics to build tools that can simultaneously help small farmers and provide engineering education to rural communities.</description>
+      <description>Jake Lee [he/him] wants to protect the redwood forests. He is an engineer, maker, artist, and aspiring farmer. Knowledge is power, but so is convenience. Jake is frustrated by America&#39;s industrial agricultural system. Equal access to education for all people is important to him. Jake hopes to some day combine all of his frustrations with his interest in robotics to build tools that can simultaneously help small farmers and provide engineering education to rural communities.</description>
     </item>
     
     <item>
