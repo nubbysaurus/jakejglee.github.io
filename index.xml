@@ -20,6 +20,14 @@
       <description>GitHub: link background  After Harry Jackson, Lon Blauvelt, and I graduated from college in 2017, we decided to spend our last summer in Santa Cruz building something cool. We all liked radishes, so we started reading about growing them using hydroponics. We glimpsed the future of radishes after we learned about the benefits of aeroponics. In this future, we witnessed pH sensors and control frameworks that could automatically tweak nutrient content of mist; optimization, efficiency, and, best of all, lots of HUGE radishes.</description>
     </item>
     
+    <item>
+      <title>hoppip (formerly radish-pi)</title>
+      <link>https://jakejglee.github.io/radish-pi/</link>
+      <pubDate>Thu, 30 Jul 2020 01:53:55 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/radish-pi/</guid>
+      <description>GitHub: link background  After Harry Jackson, Lon Blauvelt, and I graduated from college in 2017, we decided to spend our last summer in Santa Cruz building something cool. We all liked radishes, so we started reading about growing them using hydroponics. We glimpsed the future of radishes after we learned about the benefits of aeroponics. In this future, we witnessed pH sensors and control frameworks that could automatically tweak nutrient content of mist; optimization, efficiency, and, best of all, lots of HUGE radishes.</description>
+    </item>
     
     <item>
       <title>machop</title>
@@ -27,7 +35,16 @@
       <pubDate>Wed, 29 Jul 2020 16:26:37 -0700</pubDate>
       
       <guid>https://jakejglee.github.io/machop/</guid>
-      <description>background  It is hard to make anything without access to a nice workspace. As my housemate and I reclaimed our cluttered garage for the valuable space, we disassembled large wooden structures that left us with a ton of scrap wood. For a month in the middle of summer, we kept it outside uncovered. San Jose had been so dry, there was no way that wood would warp...we thought. Then came the rain.</description>
+      <description>background  It is hard to make anything without access to a nice workspace. As my housemate and I reclaimed our cluttered garage for the valuable space, we disassembled large wooden structures that left us with a ton of scrap wood. I called dibs and thus this journey into woodworking began. break it down mk.i  Rewind about a year: I put together my first attempt at a workbench right after I moved in.</description>
+    </item>
+    
+    <item>
+      <title>magnemite</title>
+      <link>https://jakejglee.github.io/magnemite/</link>
+      <pubDate>Wed, 29 Jul 2020 16:26:37 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/magnemite/</guid>
+      <description>background  Connecting Li-ion battery cells (18650) in series is a good way to power electronics for applications ranging from LEDs to electric vehicles. To build a custom battery pack, you only need to connect however many battery cells in series required to meet your application&#39;s voltage spec, connect cells in parallel to meet your applicatoins&#39;s power budget/max current spec, get an appropriate charger and regulator, and WHAM: you&#39;ve got a battery pack that can power anything you could possibly imagine.</description>
     </item>
     
     <item>
@@ -58,12 +75,12 @@
     </item>
     
     <item>
-      <title>About Jake</title>
+      <title>Jake Lee, EIT</title>
       <link>https://jakejglee.github.io/etc/about/</link>
       <pubDate>Tue, 28 Jul 2020 16:43:23 -0700</pubDate>
       
       <guid>https://jakejglee.github.io/etc/about/</guid>
-      <description>Jake Lee [he/him] wants to protect the redwood forests. He is an engineer, maker, artist, and aspiring farmer. Knowledge is power, but so is convenience. Jake is frustrated by America&#39;s industrial agricultural system. Equal access to education for all people is important to him. Jake hopes to some day combine all of his frustrations with his interest in robotics to build tools that can simultaneously help small farmers and provide engineering education to rural communities.</description>
+      <description>nubby on Jake  Jake Lee, or nubby, is an engineer, maker, artist, and aspiring farmer. Jake graduated from the Jack Baskin School of Engineering at UC Santa Cruz in 2017 with a B.S. Electrical Engineering degree and a minor in Computer Engineering. As an undergraduate, Jake discovered his passion for engineering design, and now keeps himself entertained by reading datasheets, writing modular code, and trying not to cut off his limbs with power tools.</description>
     </item>
     
     <item>
