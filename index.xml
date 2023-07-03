@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jake&#39;s portfolio on portfolio | Jake Lee</title>
+    <link>https://jakejglee.github.io/</link>
+    <description>Recent content in jake&#39;s portfolio on portfolio | Jake Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jul 2020 13:19:14 -0700</lastBuildDate>
+    
+	<atom:link href="https://jakejglee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hoppip (formerly radish-pi)</title>
+      <link>https://jakejglee.github.io/hoppip/</link>
+      <pubDate>Thu, 30 Jul 2020 01:53:55 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/hoppip/</guid>
+      <description>GitHub: link background  After Harry Jackson, Lon Blauvelt, and I graduated from college in 2017, we decided to spend our last summer in Santa Cruz building something cool. We all liked radishes, so we started reading about growing them using hydroponics. We glimpsed the future of radishes after we learned about the benefits of aeroponics. In this future, we witnessed pH sensors and control frameworks that could automatically tweak nutrient content of mist; optimization, efficiency, and, best of all, lots of HUGE radishes.</description>
+    </item>
+    
+    <item>
+      <title>machop</title>
+      <link>https://jakejglee.github.io/machop/</link>
+      <pubDate>Wed, 29 Jul 2020 16:26:37 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/machop/</guid>
+      <description>background  It is hard to make anything without access to a nice workspace. As my housemate and I reclaimed our cluttered garage for the valuable space, we disassembled large wooden structures that left us with a ton of scrap wood. I called dibs and thus this journey into woodworking began. break it down mk.i  Rewind about a year: I put together my first attempt at a workbench right after I moved in.</description>
+    </item>
+    
+    <item>
+      <title>magnemite</title>
+      <link>https://jakejglee.github.io/magnemite/</link>
+      <pubDate>Wed, 29 Jul 2020 16:26:37 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/magnemite/</guid>
+      <description>background  Connecting Li-ion battery cells (18650) in series is a good way to power electronics for applications ranging from LEDs to electric vehicles. To build a custom battery pack, you only need to connect however many battery cells in series required to meet your application&#39;s voltage spec, connect cells in parallel to meet your applicatoins&#39;s power budget/max current spec, get an appropriate charger and regulator, and WHAM: you&#39;ve got a battery pack that can power anything you could possibly imagine.</description>
+    </item>
+    
+    <item>
+      <title>mawile</title>
+      <link>https://jakejglee.github.io/mawile/</link>
+      <pubDate>Wed, 29 Jul 2020 16:26:37 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/mawile/</guid>
+      <description>GitHub: link background  I2C is a lovely hardware interface that allows multiple devices to communicate over the same data bus. By taking appropriate electrical design considerations, one can reach several devices. However, the Raspberry Pi 3 only provides two separate potential I2C connectors. This will not do. We must make more ports.  From specs on Pis, GPIO pins typically have ~5pF of input capacitance and are connected to internal ~65k&amp;#x2126; (worst-case) pull-up resistors.</description>
+    </item>
+    
+    <item>
+      <title>sableye</title>
+      <link>https://jakejglee.github.io/sableye/</link>
+      <pubDate>Wed, 29 Jul 2020 16:26:31 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/sableye/</guid>
+      <description>GitHub: link background  Building a &#34;universal&#34; device interface is impractical, but it would make collecting data from devices a lot easier. Programs like LabView are pretty good at providing a nice user interface for setting up communications, but even that is limited (not to mention it is so expensive!).  Project sableye came about after I left my last job and started playing with sensors at home. Pretty quickly, it got frustrating hard-coding every sensor communication protocol on my Raspberry Pi, and metadata generated for data collection sessions was either outdated or irrelevant.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://jakejglee.github.io/etc/contact/</link>
+      <pubDate>Tue, 28 Jul 2020 16:46:02 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/etc/contact/</guid>
+      <description> For questions or more information, please contact me and I will get back to you as soon as possible. ) 0 o . email: jacobjonathangieferlee@gmail.com </description>
+    </item>
+    
+    <item>
+      <title>Jake Lee, EIT</title>
+      <link>https://jakejglee.github.io/etc/about/</link>
+      <pubDate>Tue, 28 Jul 2020 16:43:23 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/etc/about/</guid>
+      <description>nubby on Jake  Jake Lee, or nubby, is an engineer, maker, artist, and aspiring farmer. Jake graduated from the Jack Baskin School of Engineering at UC Santa Cruz in 2017 with a B.S. Electrical Engineering degree and a minor in Computer Engineering. As an undergraduate, Jake discovered his passion for engineering design, and now keeps himself entertained by reading datasheets, writing modular code, and trying not to cut off his limbs with power tools.</description>
+    </item>
+    
+    <item>
+      <title>Affiliated</title>
+      <link>https://jakejglee.github.io/etc/affiliated/</link>
+      <pubDate>Tue, 28 Jul 2020 14:28:44 -0700</pubDate>
+      
+      <guid>https://jakejglee.github.io/etc/affiliated/</guid>
+      <description> nubby Spade and Plow Nine Lives Productions  </description>
+    </item>
+    
+  </channel>
+</rss>

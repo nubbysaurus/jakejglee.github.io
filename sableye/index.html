@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head><meta charset="utf-8">
+<meta name="keywords" content="electronics, computers, engineering, portfolio">
+<meta name="description" content="Jake Lee's portfolio.">
+<meta name="author" content="nubby">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href="https://jakejglee.github.io">
+<title>sableye</title>
+
+    
+    <link rel="stylesheet" href="https://jakejglee.github.io/sass/main.min.70a73714bc8153b3e9210300af7cd85946eed09084f15c070a04f7bee6814e63.css">
+  </head>
+  <body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="classicnav" id="nubbysNav">
+  <a href="https://jakejglee.github.io">Portfolio</a>
+  <a href="https://jakejglee.github.io/etc/about/">About</a>
+  <a href="https://jakejglee.github.io/etc/affiliated/">Affiliated</a>
+  <a href="https://jakejglee.github.io/etc/contact/">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="expandClassy()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div id="content">
+        
+  <h2>sableye</h2>
+  <a>modified : 2020-07-29 16:26:31 -0700 PDT</a>
+  <h5>GitHub: <a href="https://github.com/nubbysaurus/sableye">link</a></h5>
+<div class="project">
+  <img src="/imgs/sableye.png">
+  <h2>background</h2>
+  <p>
+  Building a "universal" device interface is impractical, but it would make collecting 
+  data from devices a lot easier. Programs like LabView are pretty good at providing 
+  a nice user interface for setting up communications, but even that is limited (not 
+  to mention it is so expensive!).
+  </p>
+  <p>
+  Project sableye came about after I left my last job and started playing with sensors 
+  at home. Pretty quickly, it got frustrating hard-coding every sensor communication 
+  protocol on my Raspberry Pi, and metadata generated for data collection sessions 
+  was either outdated or irrelevant. I also found that trying to run OpenCV with my 
+  webcams often caused my code to block. My goals for this project were thus:
+  </p>
+  <ol>
+    <li>to make a standardized framework for device communications that facilitates 
+      integrating new devices.</li>
+    <li>to run the framework on either Debian or Raspbian.
+    <li>to allow a user to verify device operation without blocking all other 
+      devices.</li>
+  </ol>
+  <h2>break it down</h2>
+  <h3>opencv-camera device</h3>
+  <p>
+  First, what can you do with a USB-connected camera? Mainly, taking a picture and 
+  recording a video come to mind, but you also need to be able to establish and break 
+  communications with it. That leaves us with the following methods:
+  </p>
+  <ul>
+    <li><code>take_picture()</code></li>
+    <li><code>start_recording(duration=0.0)</code></li>
+    <li><code>stop_recording()</code></li>
+    <li><code>connect()</code></li>
+    <li><code>disconnect()</code></li>
+  </ul>
+  <p>Taking 
+  <a href="https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html">OpenCV's Python 3 API</a>, 
+  video and image capture are based on the <code>VideoCapture</code> object. Each 
+  opencv-camera object in sableye interacts with one of these objects within the 
+  previously listed methods. <code>start_recording()</code> can be set by passing 
+  it an optional <code>duration</code> float greater than 0.0; otherwise, it will 
+  record until either a) a <code>stop_recording()</code> request is received, b) 
+  connection with the device is terminated, or c) the sableye framework terminates.
+  </p>
+  <h3>i2c-adc device</h3>
+  <p>
+  Next, I wanted to build an interface for the <a href="https://www.adafruit.com/product/1085">ADS1115</a> 
+  I<sup>2</sup>C ADC while reusing as much code as possible from the opencv-camera 
+  object. This new i2c-adc class shares the <code>connect()</code>, 
+  <code>disconnect()</code>, <code>start_recording()</code>, and 
+  <code>stop_recording()</code> methods and does not need any additional functionality. 
+  However, the most straightforward way to communicate with this device type is by 
+  using the Adafruit <a href="https://github.com/adafruit/Adafruit_ADS1X15">library</a>. 
+  In the future, I might want to build a more standard I<sup>2</sup>C interface that 
+  can be used with a wider set of devices, or multiple simultaneously. I am not sure if 
+  the Adafruit library can accommodate those yet, but I want to point out that by this 
+  stage of design, I was starting to feel like this was not a total waste of time.
+  </p>
+  <h3>integration</h3>
+  <p>
+  The shared methods between my two devices could be placed into a super-class, named 
+  <code>Sensor</code>. I anticipated controlling a power relay for 
+  <a href="">another project</a>, so I abstracted away the <code>connect</code> 
+  and <code>disconnect</code> methods, plus other useful methods for metadata 
+  generation, methods for querying device status, and helper methods into a 
+  "super-super-class" called <code>Device</code> which is inherited by the 
+  <code>Sensor</code> class.
+  </p>
+  <p>
+  Now that two devices were added to my framework, I wanted them to both be able to 
+  carry out their individual jobs while "playing nicely" with each other; i.e. not 
+  block individual device communications. The control structure used by sableye 
+  <code>Devices</code> is based on the 
+  <a href="https://classes.soe.ucsc.edu/cmpe118/Fall15/Labs/ES_Framework_2014.pdf">Events and Services framework</a>, 
+  but with potentially blocking processes spawned and polled for status updates each 
+  iteration of the main loop.
+  </p>
+  <h2>to-do</h2>
+  <ul>
+    <li>add pH sensor</li>
+    <li>add motor controls</li>
+    <li>add relay controls</li>
+    <li>integrate SPI</li>
+    <li>build as ROS node/s</li>
+    <li>improve efficiency</li>
+  </ul>
+</div>
+
+
+        </div></body>
+</html>
