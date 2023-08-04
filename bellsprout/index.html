@@ -76,6 +76,20 @@
   <h3>heating components</h3>
   <img src="/imgs/bellsprout-schematic-brawns.png" />
   <p>
+  The heat tape is working well, but I am growing convinced that the thermocouples
+  that I found with the board are discontinuous/broken since each register containing 
+  temperature info for each sensor chip is reading <em>0x00</em>, or the "default/open"
+  value. Tomorrow, I can play with it some more, but as a fallback plan we can use the
+  temperature/humidity sensors on-board my soil sensors. The next steps are:
+  <ul>
+    <li>control the heat tape with a Raspberry Pi brain</li>
+    <li>create more "heat tape" with NiCr</li>
+    <li>integrate soil sensors</li>
+    <li>add water</li>
+  </ul>
+  , and then, finally, we will get growing.
+  </p>
+  <p>
     <en>coming soon...but NiCr and SPI are spoilers.</en>
   </p>
 </div>
