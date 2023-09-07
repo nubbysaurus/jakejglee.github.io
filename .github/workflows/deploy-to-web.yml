@@ -1,6 +1,6 @@
 # .github/workflows/deploy-to-web.yml
 
-name: Node.js CI
+name: deploy page
 
 on:
   push:
@@ -31,5 +31,5 @@ jobs:
         # configure an external GitHub Pages deploy workflow here
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
+          branch: main
           folder: out
