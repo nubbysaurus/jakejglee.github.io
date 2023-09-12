@@ -1,3 +1,14 @@
+import Image from "next/image";
+
+import {
+  Box,
+  Heading,
+  HStack,
+  Spacer
+} from "@chakra-ui/react";
+
+import profilePic from "../../imgs/welcome.png";
+
 interface PageType {
   _id: string;
   name: string;
@@ -6,7 +17,12 @@ interface PageType {
 
 function WelcomeIcon() {
   return (
-    <img alt="Welcome!" href="../../imgs/welcome.png" />
+    <Image
+      alt="Welcome!"
+      height={50}
+      src={profilePic}
+      width={50}
+    />
   );
 }
 
@@ -31,12 +47,31 @@ function NavBar() {
 
   return (
     <nav>
-      <WelcomeIcon />
-      <ul>
-        {pages.map((page) => (
-          <li key={page._id}><a href={page.url}>{page.name}</a></li>
-        ))}
-      </ul>
+      <Box
+        display="flex"
+        h="3rem"
+        justifyContent="center"
+        width="full"
+        zIndex="999"
+      >
+        <WelcomeIcon />
+        <Heading>
+          Jake Lee&apos;s Portfolio
+        </Heading>
+        <Spacer />
+        <HStack
+          display="flex"
+          justifyContent="right"
+          width="full"
+        >
+          {pages.map((page) => (
+            <Box 
+              display="flex"
+              key={page._id}
+            ><a href={page.url}>{page.name}</a></Box>
+          ))}
+        </HStack>
+      </Box>
     </nav>
   );
 }
