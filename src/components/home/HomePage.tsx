@@ -1,25 +1,30 @@
-import { useState } from "react";
+import {
+  Box,
+  Flex
+} from "@chakra-ui/react";
 
 import Footer from "../shared/Footer";
-import Header from "../shared/Header";
 import NavBar from "../shared/NavBar";
+
+import Intro from "./Intro";
+import Title from "./Title";
 
 function Content() {
   return (
     <main>
-      Under construction...
+      <Title />
+      <Intro />
     </main>
   );
 }
 
 function HomePage() {
   return (
-    <nav>
+    <>
       <NavBar />
-      <Header />
       <Content />
       <Footer />
-    </nav>
+    </>
   );
 }
 

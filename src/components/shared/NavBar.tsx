@@ -50,7 +50,8 @@ function NavBar() {
       <Box
         display="flex"
         h="3rem"
-        justifyContent="center"
+        justifyContent="space-between"
+        spacing={12}
         width="full"
         zIndex="999"
       >
@@ -61,7 +62,7 @@ function NavBar() {
         <Spacer />
         <HStack
           display="flex"
-          justifyContent="right"
+          justifyContent="space-between"
           width="full"
         >
           {pages.map((page) => (
