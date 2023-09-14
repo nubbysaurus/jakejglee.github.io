@@ -31,17 +31,17 @@ function NavBar() {
     {
       _id: 0,
       name: "About Jake",
-      url: "./about.tsx"
+      url: "./about"
     },
     {
       _id: 1,
       name: "Projects",
-      url: "./projects.tsx"
+      url: "./projects"
     },
     {
       _id: 2,
       name: "Contact Jake",
-      url: "./contact.tsx"
+      url: "./contact"
     }
   ];
 

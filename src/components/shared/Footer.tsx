@@ -1,10 +1,15 @@
+import {
+  Box,
+  HStack
+} from "@chakra-ui/react";
+
 function Footer() {
   return (
     <footer>
-      <ul>
-        <li>Under</li>
-        <li>Construction</li>
-      </ul>
+      <HStack>
+        <Box>Under</Box>
+        <Box>Construction</Box>
+      </HStack>
     </footer>
   );
 }

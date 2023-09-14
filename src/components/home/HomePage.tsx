@@ -1,6 +1,7 @@
 import {
   Box,
-  Flex
+  Flex,
+  Spacer
 } from "@chakra-ui/react";
 
 import Footer from "../shared/Footer";
@@ -12,8 +13,14 @@ import Title from "./Title";
 function Content() {
   return (
     <main>
-      <Title />
-      <Intro />
+      <Flex
+        direction="column"
+        h="full"
+      >
+        <Title />
+        <Intro />
+        <Spacer />
+      </Flex>
     </main>
   );
 }
