@@ -9,7 +9,7 @@
     "chakra": "^0.0.3",
     "framer-motion": "^10.16.4",
     "json-loader": "^0.5.7",
-    "next": "^13.4.19",
+    "next": "^13.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.2.2"
